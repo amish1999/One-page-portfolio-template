@@ -142,7 +142,11 @@ a {
 a.underline {
   text-decoration: underline;
 }
-/* Paste here */
+
+a:hover {
+  transition: 0.15s;
+  opacity: 0.8;
+}
 
 h1, .h1 {
   font-size: 42px;
